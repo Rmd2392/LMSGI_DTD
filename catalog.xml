@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <llista_actors>
+        <actor id="ar74la">
+            <nom>Leonardo DiCaprio</nom>
+            <edat>48</edat>
+        </actor>
+        <actor id="as90kt">
+            <nom>Jennifer Lawrence</nom>
+            <edat>33</edat>
+        </actor>
+        <actor id="ar70mc">
+            <nom>Matt Damon</nom>
+            <edat>53</edat>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id="A7K9L" idioma="en">
+            <titol>Interestelar</titol>
+            <director>Christopher Nolan</director>
+            <any>2014</any>
+            <actors>
+                <actor_ref ref="ar70mc"/>
+                <actor_ref ref="as90kt"/>
+            </actors>
+        </pelicula>
+        <pelicula id="X2B5M" idioma="en">
+            <titol>Origen</titol>
+            <director>Christopher Nolan</director>
+            <any>2010</any>
+            <actors>
+                <actor_ref ref="ar74la"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P3Z8R" idioma="en">
+            <titol>X-Men: Dark Phoenix</titol>
+            <director>Simon Kinberg</director>
+            <any>2019</any>
+            <actors>
+                <actor_ref ref="as90kt"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="A7K9L"/>
+        <recomanacio ref="X2B5M"/>
+        <recomanacio ref="P3Z8R"/>
+    </llista_recomanacions_pelicules>
+    
+</catalog>
+
+
